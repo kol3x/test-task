@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 64px;
+  font-family: Proxima Nova, Arial, sans-serif;
+}
+
+.icon {
+  font-size: 24px;
+  color: #432eab;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.userList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.bold {
+  color: #262c40;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pale {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #8189a3;
+}

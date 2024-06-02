@@ -1,0 +1,26 @@
+.search-input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.searchInput {
+  margin-bottom: 20px;
+  padding: 8px;
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d4defe;
+  border-radius: 24px;
+  padding-right: 1.5em;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 24px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
